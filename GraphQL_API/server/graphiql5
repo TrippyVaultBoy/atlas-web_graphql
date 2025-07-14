@@ -1,0 +1,13 @@
+import { description } from "./schema/schema"
+
+{
+    projects {
+        id
+        title
+        weight
+        tasks {
+            title
+            description
+        }
+    }
+}
