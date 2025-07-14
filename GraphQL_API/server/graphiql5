@@ -11,3 +11,15 @@ import { description } from "./schema/schema"
         }
     }
 }
+
+{
+    tasks {
+        id
+        title
+        weight
+        project {
+            title
+            description
+        }
+    }
+}
